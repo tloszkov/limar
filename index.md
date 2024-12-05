@@ -7,12 +7,11 @@ hero:
   text: "Pokrivanje krovova"
   tagline: Uvod u građevinski Limar
   image:
-    src: "./assets/logo.png"
+    src: "./assets/logo.D9weBxQ0.png"
     alt: "Logo"
 
 ---
 # Uvod u građevinski Limar
-![logo.png](assets/logo.png)
 Građevinski Limar predstavlja istaknutu tvrtku specijaliziranu za krovopokrivačke i limarske radove u 
 Hrvatskoj, s dugogodišnjom tradicijom i iskustvom. Njihove usluge obuhvaćaju sveobuhvatna rješenja za 
 krovove koja su prilagođena specifičnim potrebama klijenata, istovremeno osiguravajući visok standard 
