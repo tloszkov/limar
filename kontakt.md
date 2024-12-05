@@ -5,9 +5,11 @@ li savjet, ponudu ili imate hitnu situaciju, njihov tim je spreman pomoći.
 
 ## Kontakt informacije
 
+Manager: Ante Baraba
+
 Telefon: +385 915 467 811
 
-E-pošta: limarcro@gmail.com
+E-pošta: limarkrov@gmail.com
 
 Radno vrijeme: Dostupni 24/7 za hitne slučajeve
 

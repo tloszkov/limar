@@ -6,8 +6,11 @@ hero:
   name: "Limar i krov"
   text: "Pokrivanje krovova"
   tagline: Uvod u građevinski Limar
----
+  image:
+    src: "./assets/logo.png"
+    alt: "Logo"
 
+---
 # Uvod u građevinski Limar
 
 Građevinski Limar predstavlja istaknutu tvrtku specijaliziranu za krovopokrivačke i limarske radove u 
