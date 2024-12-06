@@ -1,3 +1,7 @@
+<script setup>
+    import ContactForm from './components/ContactForm.vue'
+</script>
+
 # Kontakt
 
 Građevinski Limar pruža jednostavne i brze načine komunikacije za sve svoje klijente. Bez obzira trebate 
@@ -30,3 +34,5 @@ Radno vrijeme: Dostupni 24/7 za hitne slučajeve
 
 Ako imate hitan zahtjev ili trebate pouzdane partnere za svoj krovni projekt, ne oklijevajte kontaktirati 
 građevinski Limar. Njihova posvećenost klijentima i iskustvo osiguravaju najbolje rezultate za vaše potrebe.
+
+<ContactForm />
