@@ -1,84 +1,37 @@
 <template>
-  <form @submit.prevent="handleSubmit" class="form-container">
-    <h2 class="form-title">Kontakt obrazac</h2>
-
-    <div class="form-group">
-      <label for="name" class="form-label">Ime</label>
-      <input
-          type="text"
-          id="name"
-          name="name"
-          v-model="formData.name"
-          class="form-input"
-          required
-      />
+  <form ref="contactForm" @submit.prevent="handleSubmit">
+    <h2>Kontakt</h2>
+    <div>
+      <label for="name">Ime</label>
+      <input type="text" id="name" v-model="formData.name" required />
     </div>
-
-    <div class="form-group">
-      <label for="email" class="form-label">Email</label>
-      <input
-          type="email"
-          id="email"
-          name="email"
-          v-model="formData.email"
-          class="form-input"
-          required
-      />
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" v-model="formData.email" required />
     </div>
-
-    <div class="form-group">
-      <label for="subject" class="form-label">Predmet</label>
-      <input
-          type="text"
-          id="subject"
-          name="subject"
-          v-model="formData.subject"
-          class="form-input"
-      />
+    <div>
+      <label for="subject">Predmet</label>
+      <input type="text" id="subject" v-model="formData.subject" />
     </div>
-
-    <div class="form-group">
-      <label for="type" class="form-label">Usluga</label>
-      <select
-          id="type"
-          name="type"
-          v-model="formData.type"
-          class="form-select"
-          required
-      >
+    <div>
+      <label for="type">Vrsta usluge</label>
+      <select id="type" v-model="formData.type" required>
         <option value="">Odaberite uslugu</option>
-        <option value="Krovopokrivanje">Krovopokrivanje</option>
+        <option value="Krovopokrivački radovi">Krovopokrivački radovi</option>
         <option value="Obnova krova">Obnova krova</option>
         <option value="Popravak krova">Popravak krova</option>
         <option value="Limarski radovi">Limarski radovi</option>
       </select>
     </div>
-
-    <div class="form-group">
-      <label for="city" class="form-label">Grad</label>
-      <input
-          type="text"
-          id="city"
-          name="city"
-          v-model="formData.city"
-          class="form-input"
-      />
+    <div>
+      <label for="city">Grad</label>
+      <input type="text" id="city" v-model="formData.city" />
     </div>
-
-    <div class="form-group">
-      <label for="message" class="form-label">Poruka</label>
-      <textarea
-          id="message"
-          name="message"
-          v-model="formData.message"
-          class="form-textarea"
-          required
-      ></textarea>
+    <div>
+      <label for="message">Poruka</label>
+      <textarea id="message" v-model="formData.message" required></textarea>
     </div>
-
-    <div class="form-actions">
-      <button type="submit" class="form-button">Pošalji poruku</button>
-    </div>
+    <button type="submit">Pošalji poruku</button>
   </form>
 </template>
 
@@ -86,7 +39,6 @@
 import emailjs from 'emailjs-com';
 
 export default {
-  name: 'ContactForm',
   data() {
     return {
       formData: {
@@ -101,101 +53,77 @@ export default {
   },
   methods: {
     handleSubmit() {
-      if (!this.formData.name || !this.formData.email || !this.formData.subject || !this.formData.message) {
-        alert('Molimo ispunite sva polja!');
+      // Reference the form using Vue's ref
+      const form = this.$refs.contactForm;
+
+      // Validate form fields
+      if (!this.formData.name || !this.formData.email || !this.formData.message) {
+        alert('Molimo ispunite sva obavezna polja.');
         return;
       }
 
+      // Send email using emailjs
       emailjs
           .sendForm(
               import.meta.env.VITE_EMAILJS_SERVICE_ID,
               import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-              this.formData,
+              form, // Pass the form reference
               import.meta.env.VITE_EMAILJS_USER_ID
           )
-          .then(
-              (result) => {
-                console.log(result.text);
-                alert('Vaša poruka je uspješno poslana!');
-                this.resetForm();
-              },
-              (error) => {
-                console.log(error.message);
-                alert('Došlo je do pogreške prilikom slanja poruke.');
-              }
-          );
-    },
-    resetForm() {
-      this.formData = {
-        name: '',
-        email: '',
-        subject: '',
-        type: '',
-        city: '',
-        message: '',
-      };
+          .then(() => {
+            alert('Vaša poruka je uspješno poslana.');
+            // Reset form fields
+            this.formData = {
+              name: '',
+              email: '',
+              subject: '',
+              type: '',
+              city: '',
+              message: '',
+            };
+          })
+          .catch((error) => {
+            console.error('Error sending email:', error);
+            alert('Došlo je do pogreške prilikom slanja poruke.');
+          });
     },
   },
 };
 </script>
 
 <style>
-.form-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+/* Your custom CSS styles */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.form-title {
-  font-size: 24px;
+label {
   font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
 }
 
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.form-input,
-.form-select,
-.form-textarea {
+input,
+textarea,
+select {
   width: 100%;
-  padding: 10px;
+  padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
 }
 
-.form-textarea {
-  height: 100px;
-  resize: vertical;
-}
-
-.form-actions {
-  text-align: center;
-}
-
-.form-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #007bff;
+button {
+  padding: 0.5rem 1rem;
   border: none;
+  background-color: #007bff;
+  color: white;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.form-button:hover {
+button:hover {
   background-color: #0056b3;
 }
 </style>
