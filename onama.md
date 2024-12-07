@@ -22,7 +22,7 @@ Ako tražite pouzdanog partnera za svoje krovne projekte, građevinski Limar je 
 Posjetite njihovu web stranicu ili ih kontaktirajte kako biste saznali više o njihovim uslugama i 
 dogovorili besplatnu procjenu za vaš projekt.
 
-![ONama.jpg](public/assets/ONama.jpg)
+![ONama.jpg](public/ONama.jpg)
 
 # Udružimo snage
 

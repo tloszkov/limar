@@ -7,7 +7,7 @@ hero:
   text: "Pokrivanje krovova"
   tagline: Uvod u građevinski Limar
   image:
-    src: "assets/logo.jpg"
+    src: "/logo.jpg"
     alt: "Logo"
 
 ---
@@ -18,7 +18,7 @@ krovove koja su prilagođena specifičnim potrebama klijenata, istovremeno osigu
 kvalitete. Ponosni su na svoju povijest, koja se proteže preko nekoliko generacija, što dodatno potvrđuje 
 njihovu pouzdanost i posvećenost struci.
 
-![roofs.jpg](public/assets/roofs.jpg)
+![roofs.jpg](public/roofs.jpg)
 
 Vizija Građevinskog Limara je postati lider na tržištu krovopokrivača u Hrvatskoj te širiti svoju
 prisutnost i u drugim europskim zemljama. Njihov glavni cilj je osigurati dugoročno zadovoljstvo 
@@ -39,14 +39,14 @@ Odaberite stručnost i iskustvo. Naš tim profesionalaca osigurava trajna rješe
 učiniti sigurnim i estetski privlačnim. Kontaktirajte nas već danas kako bismo zajedno ostvarili 
 vaš projekt!
 
-![roof2.jpg](public/assets/roof2.jpg)
+![roof2.jpg](public/roof2.jpg)
 
 Tvrtka je poznata po svojim sveobuhvatnim uslugama koje uključuju postavljanje, održavanje i 
 popravak krovnih sustava. Osim toga, klijentima nude personalizirane ponude i besplatne procjene, 
 čime pokazuju visoku razinu pristupačnosti i brige za njihove potrebe. Dostupnost od 0 do 24 sata 
 za hitne slučajeve dodatno naglašava njihovu predanost korisnicima.
 
-![roofs1.jpg](public/assets/roofs1.jpg)
+![roofs1.jpg](public/roofs1.jpg)
 
 Građevinski Limar osigurava kvalitetnu podršku kroz više kanala komunikacije, uključujući telefonske 
 pozive, WhatsApp i online obrazac za kontakt. Njihova web stranica također nudi informacije o aktualnim 
