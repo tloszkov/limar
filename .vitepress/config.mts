@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
+    logo: '/logo.jpg',
     nav: [
       { text: 'Početna', link: '/' },
       { text: 'O nama', link: '/onama' },
