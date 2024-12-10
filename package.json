@@ -3,11 +3,12 @@
     "vitepress": "^1.5.0"
   },
   "scripts": {
-    "docs:dev": "vitepress dev --host",
-    "docs:build": "vitepress build",
+    "docs:dev": "cross-env VITE_GOOGLE_TAG=${VITE_GOOGLE_TAG} vitepress dev --host",
+    "docs:build": "cross-env VITE_GOOGLE_TAG=${VITE_GOOGLE_TAG} vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "emailjs-com": "^3.2.0"
   }
 }

@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-const { VITE_GOOGLE_TAG } = import.meta.env
+const googleTag = process.env.VITE_GOOGLE_TAG;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,17 +10,17 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: 'limar, krov, pokrivanje, krovova, krovna, rješenja, krovopokrivačka, rješenja, pokrivanje, krovopokrivačka, rješenja, pokrivanje, krova, krovna, rješenja, krovopokrivačka, rješenja'}],
     ['meta', { name: 'description', content: 'Naša tvrtka pruža vrhunske krovopokrivačke usluge. Obratite nam se s povjerenjem!' }],
     ['title', { content: 'Limar i Krov - Stručnjaci za krovopokrivanje' }],
-     [
+    googleTag && [
          'script',
-         {async: '', src:`https://www.googletagmanager.com/gtag/js?id=${VITE_GOOGLE_TAG}`}
+         {async: '', src:`https://www.googletagmanager.com/gtag/js?id=${googleTag}`}
      ],
-     [
+     googleTag && [
          'script',
           {},
           `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', ${VITE_GOOGLE_TAG});`
+          gtag('config', ${googleTag});`
      ]
   ],
   themeConfig: {
