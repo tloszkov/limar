@@ -1,21 +1,21 @@
 <template>
   <form ref="contactForm" @submit.prevent="handleSubmit">
-    <h2>Kontakt</h2>
-    <div>
+    <h2 class="form-title">Kontakt</h2>
+    <div class="form-group">
       <label for="name">Ime</label>
-      <input type="text" id="name" v-model="formData.name" required />
+      <input class="form-input" type="text" id="name" name="name" v-model="formData.name" required />
     </div>
-    <div>
+    <div class="form-group">
       <label for="email">Email</label>
-      <input type="email" id="email" v-model="formData.email" required />
+      <input class="form-input" type="email" id="email" name="email" v-model="formData.email" required />
     </div>
-    <div>
+    <div class="form-group">
       <label for="subject">Predmet</label>
-      <input type="text" id="subject" v-model="formData.subject" />
+      <input class="form-input" type="text" id="subject" name="subject" v-model="formData.subject" />
     </div>
-    <div>
+    <div class="form-group">
       <label for="type">Vrsta usluge</label>
-      <select id="type" v-model="formData.type" required>
+      <select class="form-label form-select form-input" id="type" name="type" v-model="formData.type" required>
         <option value="">Odaberite uslugu</option>
         <option value="Krovopokrivački radovi">Krovopokrivački radovi</option>
         <option value="Obnova krova">Obnova krova</option>
@@ -23,15 +23,17 @@
         <option value="Limarski radovi">Limarski radovi</option>
       </select>
     </div>
-    <div>
+    <div class="form-group">
       <label for="city">Grad</label>
-      <input type="text" id="city" v-model="formData.city" />
+      <input class="form-input" type="text" id="city" name="city" v-model="formData.city" />
     </div>
-    <div>
-      <label for="message">Poruka</label>
-      <textarea id="message" v-model="formData.message" required></textarea>
+    <div class="form-group">
+      <label class="form-group" for="message">Poruka</label>
+      <textarea class="form-label form-select form-input" id="message" name="message" v-model="formData.message" required></textarea>
     </div>
-    <button type="submit">Pošalji poruku</button>
+    <div class="form-group">
+      <button class="form-button" type="submit">Pošalji poruku</button>
+    </div>
   </form>
 </template>
 
@@ -92,38 +94,62 @@ export default {
 </script>
 
 <style>
-/* Your custom CSS styles */
 form {
-  max-width: 400px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
-label {
+.form-title {
+  font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-input,
-textarea,
-select {
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
   width: 100%;
-  padding: 0.5rem;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 16px;
 }
 
-button {
-  padding: 0.5rem 1rem;
-  border: none;
+.form-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+.form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
   background-color: #007bff;
-  color: white;
+  border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-button:hover {
+.form-button:hover {
   background-color: #0056b3;
 }
 </style>

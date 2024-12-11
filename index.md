@@ -13,28 +13,26 @@ hero:
 ---
 
 # Uvod u građevinski Limar
-Građevinski Limar predstavlja istaknutu tvrtku specijaliziranu za krovopokrivačke i limarske radove u 
-Hrvatskoj, s dugogodišnjom tradicijom i iskustvom. Njihove usluge obuhvaćaju sveobuhvatna rješenja za 
-krovove koja su prilagođena specifičnim potrebama klijenata, istovremeno osiguravajući visok standard 
-kvalitete. Ponosni su na svoju povijest, koja se proteže preko nekoliko generacija, što dodatno potvrđuje 
-njihovu pouzdanost i posvećenost struci.
+Građevinski Limar je istaknuta tvrtka specijalizirana za krovopokrivačke i limarske radove u Hrvatskoj, 
+s dugogodišnjom tradicijom i iskustvom. Njihove usluge obuhvaćaju sveobuhvatna rješenja za krovove prilagođena 
+specifičnim potrebama klijenata, uz osiguranje visokih standarda kvalitete. Ponosni su na svoju povijest, koja 
+se proteže kroz nekoliko generacija, što dodatno potvrđuje njihovu pouzdanost i posvećenost struci.
 
 ![roofs.jpg](public/roofs.jpg)
 
-Vizija Građevinskog Limara je postati lider na tržištu krovopokrivača u Hrvatskoj te širiti svoju
-prisutnost i u drugim europskim zemljama. Njihov glavni cilj je osigurati dugoročno zadovoljstvo 
-klijenata kroz stručnu i profesionalnu izvedbu radova, od inicijalnih konzultacija do završne 
-realizacije projekata.
+# Naša vizija
+Vizija Građevinskog Limara je postati lider na tržištu krovopokrivačkih radova u Hrvatskoj, uz širenje 
+prisutnosti i na druge europske zemlje. Naš glavni cilj je osigurati dugoročno zadovoljstvo klijenata 
+kroz stručnu i profesionalnu izvedbu radova – od inicijalnih konzultacija do završne realizacije projekta.
 
 # Birajte mudro
 
 Odlučite se za građevinski Limar jer znamo koliko je vaš krov važna investicija. Naš prioritet je 
 pružiti usluge koje ne samo da zadovoljavaju, već i premašuju vaša očekivanja.
 
-- Pokrivamo cijelu Hrvatsku, bez obzira radi li se o novogradnji, zamjeni krova ili manjim popravcima.
-- Specijalizirani smo za sve vrste krovova, neovisno o veličini ili složenosti projekta.
-- Nudimo mogućnost korištenja vlastitih vrhunskih materijala uz dostavu ili radimo s materijalima koje 
-- osigurate vi kao naručitelj.
+- **Pokrivamo cijelu Hrvatsku** - bez obzira radi li se o novogradnji, zamjeni krova ili manjim popravcima.
+- **Specijalizirani smo za sve vrste krovova** - neovisno o veličini ili složenosti projekta.
+- **Materijali po izboru** – koristimo vlastite vrhunske materijale s dostavom ili radimo s materijalima koje osigurate vi kao naručitelj.
 
 Odaberite stručnost i iskustvo. Naš tim profesionalaca osigurava trajna rješenja koja će vaš dom 
 učiniti sigurnim i estetski privlačnim. Kontaktirajte nas već danas kako bismo zajedno ostvarili 
@@ -42,15 +40,21 @@ vaš projekt!
 
 ![roof2.jpg](public/roof2.jpg)
 
-Tvrtka je poznata po svojim sveobuhvatnim uslugama koje uključuju postavljanje, održavanje i 
-popravak krovnih sustava. Osim toga, klijentima nude personalizirane ponude i besplatne procjene, 
-čime pokazuju visoku razinu pristupačnosti i brige za njihove potrebe. Dostupnost od 0 do 24 sata 
-za hitne slučajeve dodatno naglašava njihovu predanost korisnicima.
+# Naše usluge
+
+Tvrtka je poznata po sveobuhvatnim uslugama koje uključuju:
+- Postavljanje novih krovnih sustava
+- Održavanje i popravak krovova
+- Personalizirane ponude i besplatne procjene
+Dodatno, dostupni smo 0-24 sata za hitne intervencije, čime pokazujemo predanost klijentima i njihovim potrebama.
 
 ![roofs1.jpg](public/roofs1.jpg)
 
-Građevinski Limar osigurava kvalitetnu podršku kroz više kanala komunikacije, uključujući telefonske 
-pozive, WhatsApp i online obrazac za kontakt. Njihova web stranica također nudi informacije o aktualnim 
-ponudama, čime dodatno približavaju svoje usluge potencijalnim klijentima. Posjetite njihov web za 
-više informacija i kontaktirajte ih kako biste pronašli najbolje rješenje za vaš krov.
+# Kontaktirajte nas
 
+Građevinski Limar osigurava kvalitetnu podršku kroz više kanala komunikacije:
+- Telefonski pozivi
+- WhatsApp
+- Online obrazac za kontakt
+Posjetite našu web stranicu za aktualne ponude i dodatne informacije. Javite nam se kako bismo zajedno 
+pronašli najbolje rješenje za vaš krov!

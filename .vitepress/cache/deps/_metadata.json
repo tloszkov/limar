@@ -2,12 +2,12 @@
   "hash": "e61aad4c",
   "configHash": "6fc89d9c",
   "lockfileHash": "147d1068",
-  "browserHash": "12290ff8",
+  "browserHash": "b523198d",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "81855c77",
+      "fileHash": "bdd34d23",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
@@ -19,7 +19,13 @@
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "661767a2",
+      "fileHash": "f8f56f66",
+      "needsInterop": false
+    },
+    "emailjs-com": {
+      "src": "../../../node_modules/emailjs-com/es/index.js",
+      "file": "emailjs-com.js",
+      "fileHash": "27a90ea4",
       "needsInterop": false
     }
   },

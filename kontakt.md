@@ -13,7 +13,7 @@ Manager: Ante Baraba
 
 Telefon: +385 915 467 811
 
-E-pošta: limarkrov@gmail.com
+E-mail: limarikrov@gmail.com
 
 Radno vrijeme: Dostupni 24/7 za hitne slučajeve
 
