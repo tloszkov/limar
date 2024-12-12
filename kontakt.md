@@ -11,7 +11,9 @@ li savjet, ponudu ili imate hitnu situaciju, njihov tim je spreman pomoći.
 
 Manager: Ante Baraba
 
-Telefon: +385 915 467 811
+Telefon: <button class="call-button" onclick="window.location.href='tel:+36123456789'">+385 915 467 811</button>
+
+WhatsApp: <button class = "call-button" onclick="window.location.href='https://wa.me/385915467811'">WhatsApp poruka</button>
 
 E-mail: limarikrov@gmail.com
 
@@ -36,3 +38,20 @@ Ako imate hitan zahtjev ili trebate pouzdane partnere za svoj krovni projekt, ne
 građevinski Limar. Njihova posvećenost klijentima i iskustvo osiguravaju najbolje rezultate za vaše potrebe.
 
 <ContactForm />
+
+<style>
+    .call-button {
+  display: inline-block;
+  padding: 2px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.call-button:hover {
+  background-color: #0056b3;
+}
+</style>

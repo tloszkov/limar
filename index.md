@@ -53,8 +53,26 @@ Dodatno, dostupni smo 0-24 sata za hitne intervencije, čime pokazujemo predanos
 # Kontaktirajte nas
 
 Građevinski Limar osigurava kvalitetnu podršku kroz više kanala komunikacije:
-- Telefonski pozivi
-- WhatsApp
-- Online obrazac za kontakt
+- Telefonski pozivi : <button class="call-button" onclick="window.location.href='tel:+385915467811'">+385 915 467 811</button>
+- WhatsApp <button class = "call-button" onclick="window.location.href='https://wa.me/385915467811'">WhatsApp poruka</button>
+- Online obrazac za kontakt: limarikrov@gmail.com
+
 Posjetite našu web stranicu za aktualne ponude i dodatne informacije. Javite nam se kako bismo zajedno 
 pronašli najbolje rješenje za vaš krov!
+
+<style>
+    .call-button {
+  display: inline-block;
+  padding: 2px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.call-button:hover {
+  background-color: #0056b3;
+}
+</style>

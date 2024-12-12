@@ -42,7 +42,15 @@ export default defineConfig({
 
     footer: {
       message: 'Limar i krov' +
-      '<br/>' +'Ante Baraba : +385 915 467 811'+
+      '<br/>' +'Ante Baraba :' +
+          '<button style="display: inline-block;\n' +
+          '  padding: 5px 5px;\n' +
+          '  background-color: #007BFF;\n' +
+          '  color: white;\n' +
+          '  text-decoration: none;\n' +
+          '  border-radius: 5px;\n' +
+          '  font-size: 16px;\n' +
+          '  text-align: center;" onclick="window.location.href=\'tel:+385915467811\'">+385 915 467 811</button> '+
       '<br/>' +'E-mail: limarikrov@gmail.com',
       copyright: 'Copyright © 2024',
 
